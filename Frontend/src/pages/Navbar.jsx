@@ -51,9 +51,12 @@ export function Navbar() {
           >
             <Search className="w-4 h-4" />
           </button>
-          <button className="bg-gradient-primary text-primary-foreground text-sm px-5 py-2 rounded-full font-medium hover:scale-105 transition-transform">
+          <a 
+          href="https://play.google.com/store/apps/details?id=com.application.zomato"
+          target="_blank"
+          className="bg-gradient-primary text-primary-foreground text-sm px-5 py-2 rounded-full font-medium hover:scale-105 transition-transform">
             Sign in
-          </button>
+          </a>
         </div>
       </div>
     </motion.header>
